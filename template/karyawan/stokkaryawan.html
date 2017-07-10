@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sistem Informasi Apotek</title>
+
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/kustom.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        
+        
+        <div class="row" id="kepala">
+            <div class="col-md-12 text-center">
+                <img src="../images/banner.png" alt="">
+            </div>
+        </div>
+
+        <div class="row" id="navbar">
+            <div class="col-md-4">
+                <marquee width=200 scrolldelay=200><p id="tanggal"></p></marquee>
+            </div>
+            <div class="col-md-8 text-right">
+                <a href="../index.html" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
+            </div>
+        </div>
+
+        <div class="row row-eq-height">
+            <div id="sidebar" class="col-md-2">
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="berandakaryawan.html">Beranda</a>
+                </li>
+                <li>
+                    <a href="barangkaryawan.html">List Barang</a>
+                </li>
+                <li>
+                    <a href="inputbarang.html">Input Barang</a>
+                </li>
+                <li>
+                    <a href="stokkaryawan.html">List Stok Barang</a>
+                </li>
+                <li>
+                    <a href="suplaikaryawan.html">List Supplai</a>
+                </li>
+            </ul>
+                                
+            </div>
+
+            <div id="badan" class="col-md-10">
+                <h1 class="page-header">List Stok Barang</h1>
+                <div>
+                <p class="text-right">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Tambah</button>
+                </p>
+
+                    <div id="modal1" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tambah Barang</h4>
+                          </div>
+                          <div class="modal-body">
+                            
+                        <form>
+                          <div class="form-group">
+                            <label for="nama">Nama Barang</label>
+                            <input type="text" class="form-control" placeholder="Nama Barang">   
+                          </div>
+                          <div class="form-group">
+                            <label for="kode">Kode Barang</label>
+                              <input type="text" class="form-control" placeholder="Kode Barang">
+                          </div>
+                          <div class="form-group">
+                            <label for="jenis">Jenis Barang</label>
+                            <input type="text" class="form-control" id="jenisbarang" placeholder="Jenis Barang">
+                          </div>
+                          <div class="form-group">
+                            <label for="stok">Jumlah Stok</label>
+                              <input type="number" class="form-control" placeholder="Jumlah Stok">
+                          </div>
+                        </form>
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Simpan</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                </div>  
+                <div>
+                <form class="navbar-form navbar-right">
+                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Export</button>
+                <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-print"></span> Cetak</button>
+                </form>
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+               </div>
+                <table class="table table-striped text-center">
+                    <thead>
+                        <tr>
+                            <th class="text-center">No.</th>
+                            <th class="text-center">Nama Barang</th>
+                            <th class="text-center">Kode Barang</th>
+                            <th class="text-center">Jenis Barang</th>
+                            <th class="text-center">Jumlah Stok</th>
+                            <th class="text-center" colspan="3">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>PARACETAMOL</td>
+                            <td>OB0001</td>
+                            <td>Obat</td>
+                            <td>100</td>
+                            <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal2">Lihat</button>
+
+                                <div id="modal2" class="modal fade text-left" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">History Penjualan Barang</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        <p class="text-justify">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No.</th>
+                                                        <th>Tanggal</th>
+                                                        <th>Jumlah</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>01-01-2017</td>
+                                                        <td>5</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>02-01-2017</td>
+                                                        <td>4</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+
+                            </td>
+                            <td>
+                                <a href="inputpenjualan.html" title="" type="button" class="btn btn-success" data-toggle="modal" data-target="#modal3">Edit</a>
+
+                                <div id="modal3" class="modal fade text-justify" role="dialog">
+                                  <div class="modal-dialog">
+
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Edit Barang</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                        
+                                    <form>
+                                      <div class="form-group">
+                                        <label for="nama">Nama Barang</label>
+                                        <input type="text" class="form-control" value="PARACETAMOL">   
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="kode">Kode Barang</label>
+                                          <input type="text" class="form-control" placeholder="OB0001">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="jenis">Jenis Barang</label>
+                                        <input type="text" class="form-control" id="jenisbarang" value="Alat">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="stok">Jumlah Stok</label>
+                                          <input type="number" class="form-control" value=100>
+                                      </div>
+                                    </form>
+
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Simpan</button>
+                                      </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+
+                            </td>
+                            <td>
+                                <button id="hapus" type="button" class="btn btn-danger">Hapus</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>AMOXICILLIN</td>
+                            <td>OB0002</td>
+                            <td>Obat</td>
+                            <td>150</td>
+                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                            <td>
+                                <a href="inputpenjualan.html" title="" type="button" class="btn btn-success">Edit</a>
+                            </td>
+                            <td>
+                                <button id="hapus" type="button" class="btn btn-danger">Hapus</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sarung Tangan Medis</td>
+                            <td>AL0001</td>
+                            <td>Alat</td>
+                            <td>80</td>
+                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                            <td>
+                                <a href="inputpenjualan.html" title="" type="button" class="btn btn-success">Edit</a>
+                            </td>
+                            <td>
+                                <button id="hapus" type="button" class="btn btn-danger">Hapus</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Alat Suntik Tanpa Jarum</td>
+                            <td>AL0002</td>
+                            <td>Alat</td>
+                            <td>60</td>
+                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                            <td>
+                                <a href="inputpenjualan.html" title="" type="button" class="btn btn-success">Edit</a>
+                            </td>
+                            <td>
+                                <button id="hapus" type="button" class="btn btn-danger">Hapus</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Masker</td>
+                            <td>AL0003</td>
+                            <td>Alat</td>
+                            <td>50</td>
+                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                            <td>
+                                <a href="inputpenjualan.html" title="" type="button" class="btn btn-success">Edit</a>
+                            </td>
+                            <td>
+                                <button id="hapus" type="button" class="btn btn-danger">Hapus</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table> 
+
+                <div class="text-center">
+                <ul class="pagination">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script>
+    var d = new Date();
+    document.getElementById("tanggal").innerHTML = d.toDateString();
+
+    $(function(){
+    $('a#logout').click(function(){
+            if(confirm('Apakah anda yakin ingin logout?')) {
+                return true;
+            }
+
+            return false;
+        });
+    });
+
+    $(function(){
+    $('button#hapus').click(function(){
+            if(confirm('Apakah anda yakin ingin menghapus stok barang ?')) {
+                return true;
+            }
+
+            return false;
+        });
+    });
+
+    </script>
+</body>
+</html>

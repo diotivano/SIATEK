@@ -1,0 +1,29 @@
+body{
+  padding-top: 15px;
+}
+
+
+#kepala{
+  height: 150px;
+  background-color: #26A69A;
+}
+
+#kepala img{
+  height: 150px;
+}
+
+#badan{
+  min-height: 300px;
+  background-color: #80CBC4;
+}
+
+#badan .container{
+  margin-top: 35px;
+}
+
+#kaki{
+  min-height: 150px;
+  background-color: #26A69A;
+  padding-top:  10px;
+  padding-left: 10px;
+}
