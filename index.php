@@ -7,7 +7,5 @@ $lgn = new LoginUI();
 
 $lgn->aksesFormLogin();
 
-print_r(PDO::getAvailableDrivers()); 
-
 ?>
 

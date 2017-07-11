@@ -1,10 +1,10 @@
 <?php 
 
-require_once 'View.php';
+require_once 'ViewLogin.php';
 /**
 * 
 */
-class LoginUI extends View
+class LoginUI extends ViewLogin
 {
 	
 	public function aksesFormLogin()

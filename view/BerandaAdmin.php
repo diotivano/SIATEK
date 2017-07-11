@@ -1,10 +1,10 @@
 <?php 
 
-require_once 'ViewBerandaAdmin.php';
+require_once 'ViewAdmin.php';
 /**
 * 
 */
-class BerandaAdmin extends ViewBerandaAdmin
+class BerandaAdmin extends ViewAdmin
 {
 	
 	public function aksesBerandaAdmin()

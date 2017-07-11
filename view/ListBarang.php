@@ -1,10 +1,10 @@
 <?php 
 
-require_once 'ViewListBarang.php';
+require_once 'ViewAdmin.php';
 /**
 * 
 */
-class ListBarang extends ViewListBarang
+class ListBarang extends ViewAdmin
 {
 	
 	public function aksesListBarang()
