@@ -36,7 +36,7 @@
                     <a href="suplaiadmin.html">List Suplai Barang</a>
                 </li>
                 <li>
-                    <a href="listresep.php">List Resep</a>
+                    <a href="resepadmin.html">List Resep</a>
                 </li>
                 <li>
                     <a href="penjualanadmin.html">List Penjualan</a>

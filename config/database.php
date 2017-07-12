@@ -2,7 +2,7 @@
 	$host = "localhost";
 	$dbname = "siatek";
 	$username = "root";
-	$password = " ";
+	$password = "3110";
 
 
  ?>
