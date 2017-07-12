@@ -1,6 +1,6 @@
 	<?php 
 	$host = "localhost";
-	$dbname = "sisfonews";
+	$dbname = "siatek";
 	$username = "root";
 	$password = "3110";
 
