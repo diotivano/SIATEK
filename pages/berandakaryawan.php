@@ -3,19 +3,19 @@
                     <table>
                          <tr>
                              <td>Nama </td>
-                             <td>: Dio Tivano</td>
+                             <td>: Upin</td>
                          </tr>
                          <tr>
                              <td>No. Telepon</td>
-                             <td>: (0561) 725487</td>
+                             <td>: 081212121414</td>
                          </tr>
                          <tr>
                              <td>User Id </td>
-                             <td>: AD001</td>
+                             <td>: KR001</td>
                          </tr>
                          <tr>
                              <td>Jabatan </td>
-                             <td>: Admin</td>
+                             <td>: Karyawan</td>
                          </tr>
                          <tr>
                              <td>Jenis Kelamin </td>
@@ -23,7 +23,7 @@
                          </tr>
                          <tr>
                              <td>Alamat </td>
-                             <td>: Jl. Alteri Supadio</td>
+                             <td>: Jl. A.yani</td>
                          </tr>
                     </table>
             </div>

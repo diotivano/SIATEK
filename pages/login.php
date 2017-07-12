@@ -18,7 +18,7 @@
 									<strong> Login SIATEK</strong>
 								</div>
 								<div class="panel-body">
-									<form role="form" action="admin/berandaadmin.html" method="POST">
+									<form role="form" action="beranda.php" method="POST">
 										<fieldset>
 											<div class="row">
 												<div class="col-md-10  col-md-offset-1 ">

@@ -3,19 +3,19 @@
                     <table>
                          <tr>
                              <td>Nama </td>
-                             <td>: Dio Tivano</td>
+                             <td>: Muammar</td>
                          </tr>
                          <tr>
                              <td>No. Telepon</td>
-                             <td>: (0561) 725487</td>
+                             <td>: 081212121213</td>
                          </tr>
                          <tr>
                              <td>User Id </td>
-                             <td>: AD001</td>
+                             <td>: KS001</td>
                          </tr>
                          <tr>
                              <td>Jabatan </td>
-                             <td>: Admin</td>
+                             <td>: Kasir</td>
                          </tr>
                          <tr>
                              <td>Jenis Kelamin </td>
@@ -23,7 +23,7 @@
                          </tr>
                          <tr>
                              <td>Alamat </td>
-                             <td>: Jl. Alteri Supadio</td>
+                             <td>: Jl. Sepakat 1</td>
                          </tr>
                     </table>
             </div>
