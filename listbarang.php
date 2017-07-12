@@ -1,8 +1,8 @@
 <?php 
-include 'view/ListBarang.php';
+include 'view/Admin.php';
 
 $brad = new ListBarang();
 
-$brad->aksesListBarang();
+$brad->tampilListBarang();
 
  ?>
