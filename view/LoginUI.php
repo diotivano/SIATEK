@@ -4,7 +4,7 @@ require_once 'View.php';
 /**
 * 
 */
-class LoginUI extends View
+class LoginUI extends ViewLogin
 {
 	
 	public function aksesFormLogin()

@@ -19,102 +19,24 @@
                             <th class="text-center">Nama Barang</th>
                             <th class="text-center">Kode Barang</th>
                             <th class="text-center">Jenis Barang</th>
+                            <th class="text-center">Stok</th>
                             <th class="text-center">Harga</th>
-                            <th class="text-center">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
+<?php $i=1;
+foreach ($list_barang as $lb){ ?>
                         <tr>
-                            <td>1</td>
-                            <td>PARACETAMOL</td>
-                            <td>OB0001</td>
-                            <td>Obat</td>
-                            <td>2000</td>
-                            <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Lihat</button>
-
-                            <div id="modal1" class="modal fade text-justify" role="dialog">
-                                  <div class="modal-dialog">
-
-                                    <div class="modal-content">
-                                      <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                        <h4 class="modal-title">Info Barang</h4>
-                                      </div>
-                                      <div class="modal-body">
-                                        <p>
-                                          <b>Nama Barang : PARACETAMOL</b>
-                                          <br>
-                                          <b>Kode Barang : OB0001</b>
-                                          <br>
-                                          <b>Jenis Barang : Obat</b>
-                                          <br>
-                                          <br>
-                                          <b>Indikasi:</b>
-                                          <br>
-                                          Sebagai antipiretik/analgesik, termasuk bagi pasien yang tidak tahan asetosal. Sebagai analgesik, misalnya untuk mengurangi rasa nyeri pada sakit kepala, sakit gigi, sakit waktu haid dan sakit pada otot.menurunkan demam pada influenza dan setelah vaksinasi.
-                                          <br>
-                                          <b>Kontra Indikasi:</b>
-                                          <br>
-                                          Hipersensitif terhadap parasetamol dan defisiensi glokose-6-fosfat dehidroganase.tidak boleh digunakan pada penderita dengan gangguan fungsi hati.
-                                          <br>
-                                          <br>
-                                          Paracetamol adalah derivat p-aminofenol yang mempunyai sifat antipiretik/analgesik 
-                                          Sifat antipiretik disebabkan oleh gugus aminobenzen dan mekanismenya diduga berdasarkan efek sentral. 
-                                          Sifat analgesik parasetamol dapat menghilangkan rasa nyeri ringan sampai sedang. 
-                                          Sifat antiinflamasinya sangat lemah sehingga sehingga tindak digunakan sebagai antirematik.
-                                        </p>
-                                      </div>
-                                      <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                      </div>
-                                    </div>
-
-                                  </div>
-                                </div>
-
-                            </td>
-
-                        <tr>
-                            <td>2</td>
-                            <td>AMOXICILLIN</td>
-                            <td>OB0002</td>
-                            <td>Obat</td>
-                            <td>500</td>
-                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
+                            <td><?= $i ?></td>
+                            <td><?= $lb['nama_barang'] ?></td>
+                            <td><?= $lb['kode_barang'] ?></td>
+                            <td><?= $lb['jenis'] ?></td>
+                            <td><?= $lb['stok'] ?></td>
+                            <td><?= $lb['harga'] ?></td>
                         </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Sarung Tangan Medis</td>
-                            <td>AL0001</td>
-                            <td>Alat</td>
-                            <td>1500</td>
-                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Alat Suntik Tanpa Jarum</td>
-                            <td>AL0002</td>
-                            <td>Alat</td>
-                            <td>5000</td>
-                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Masker</td>
-                            <td>AL0003</td>
-                            <td>Alat</td>
-                            <td>1500</td>
-                            <td><button type="button" class="btn btn-primary">Lihat</button></td>
-                        </tr>
-                    </tbody>
-                </table> 
-
-                <div class="text-center">
-                <ul class="pagination">
-                  <li class="active"><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-                </div>
-
+<?php $i++; }?>
+                     </tbody> 
+                  </table>
             </div>
+
+
