@@ -1,8 +1,8 @@
 <?php 
-include 'view/Admin.php';
+include 'view/AdminUI.php';
 
-$brad = new ListBarang();
+$lb = new ListBarang();
 
-$brad->tampilListBarang();
+$lb->tampilListBarang();
 
  ?>

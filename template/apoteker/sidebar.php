@@ -1,10 +1,9 @@
-
     <div class="container-fluid">
         
         
         <div class="row" id="kepala">
             <div class="col-md-12 text-center">
-                <img src="template/images/banner.png" alt="">
+                <img src="../images/banner.png" alt="">
             </div>
         </div>
 
@@ -13,7 +12,7 @@
                 <marquee width=200 scrolldelay=200><p id="tanggal"></p></marquee>
             </div>
             <div class="col-md-8 text-right">
-                <a href="index.php" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
+                <a href="../index.html" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
             </div>
         </div>
 
@@ -21,26 +20,18 @@
             <div id="sidebar" class="col-md-2">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="beranda.php">Beranda</a>
+                    <a href="berandaapoteker.html">Beranda</a>
                 </li>
                 <li>
-                    <a href="user.html">User</a>
+                    <a href="stokapoteker.html">List Stok Barang</a>
                 </li>
                 <li>
-                    <a href="listbarang.php">List Barang</a>
+                    <a href="resepapoteker.html">List Resep</a>
                 </li>
                 <li>
-                    <a href="stokadmin.html">List Stok Barang</a>
+                    <a href="inputresep.html">Input Resep</a>
                 </li>
-                <li>
-                    <a href="suplaiadmin.html">List Suplai Barang</a>
-                </li>
-                <li>
-                    <a href="listresep.php">List Resep</a>
-                </li>
-                <li>
-                    <a href="penjualanadmin.html">List Penjualan</a>
-                </li>
+
             </ul>
                                 
             </div>

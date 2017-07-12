@@ -9,5 +9,4 @@ class Controller
 		return true;
 	}
 }
-
 ?>
