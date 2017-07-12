@@ -1,8 +1,8 @@
 <?php 
 include 'view/AdminUI.php';
 
-$brad = new ListResep();
+$lr = new ListResep();
 
-$brad->aksesListResep();
+$lr->tampilListResep();
 
  ?>

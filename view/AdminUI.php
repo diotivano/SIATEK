@@ -2,17 +2,25 @@
 
 require_once 'View.php';
 include 'model/Barang.php';
+include 'model/Resep.php';
 /**
 * 
 */
 class BerandaAdmin extends ViewAdmin
 {
 	
-	public function aksesBerandaAdmin()
+	public function tampilBerandaAdmin()
 	{
+		include_once 'model/User.php';
+
+		$adm = new User();
+
+		$user_admin = $adm->aksesUserAdmin();
+
 		include_once 'pages/berandaadmin.php';
 		$this->end();
 	}
+
 }
 
 class ListBarang extends ViewAdmin
@@ -35,11 +43,20 @@ class ListBarang extends ViewAdmin
 class ListResep extends ViewAdmin
 {
 	
-	public function aksesListResep()
+	public function tampilListResep()
 	{
-		include 'pages/listresep.php';
+		include_once 'model/Resep.php';
+
+		$res = new Resep();
+		$barang = new Barang();
+
+		$list_resep = $res->aksesListResep();
+		$databarang = $barang->aksesListBarang();
+
+		include_once 'pages/listresep.php';
 		$this->end();
 	}
+
 }
 
  ?>

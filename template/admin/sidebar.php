@@ -24,22 +24,22 @@
                     <a href="beranda.php">Beranda</a>
                 </li>
                 <li>
-                    <a href="user.html">User</a>
+                    <a href="template/admin/user.html">User</a>
                 </li>
                 <li>
                     <a href="listbarang.php">List Barang</a>
                 </li>
                 <li>
-                    <a href="stokadmin.html">List Stok Barang</a>
+                    <a href="template/admin/stokadmin.html">List Stok Barang</a>
                 </li>
                 <li>
-                    <a href="suplaiadmin.html">List Suplai Barang</a>
+                    <a href="template/admin/suplaiadmin.html">List Suplai Barang</a>
                 </li>
                 <li>
                     <a href="listresep.php">List Resep</a>
                 </li>
                 <li>
-                    <a href="penjualanadmin.html">List Penjualan</a>
+                    <a href="template/admin/penjualanadmin.html">List Penjualan</a>
                 </li>
             </ul>
                                 

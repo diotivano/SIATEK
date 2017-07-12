@@ -1,8 +1,8 @@
 <?php 
 include 'view/AdminUI.php';
 
-$brad = new BerandaAdmin();
+$adm = new BerandaAdmin();
 
-$brad->aksesBerandaAdmin();
+$adm->tampilBerandaAdmin();
 
  ?>

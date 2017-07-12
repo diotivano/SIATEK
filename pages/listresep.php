@@ -25,13 +25,15 @@
                         </tr>
                     </thead>
                     <tbody>
+<?php $i=1;
+foreach ($list_resep as $lr){ ?>
                         <tr>
-                            <td>1</td>
-                            <td>A0001</td>
-                            <td>AP001</td>
-                            <td>Dr. Budi</td>
-                            <td>Adi</td>
-                            <td>01-01-2017</td>
+                            <td><?= $i ?></td>
+                            <td><?= $lr['kode_resep'] ?></td>
+                            <td><?= $lr['id_apoteker'] ?></td>
+                            <td><?= $lr['nama_dokter'] ?></td>
+                            <td><?= $lr['nama_pelanggan'] ?></td>
+                            <td><?= $lr['tanggal'] ?></td>
                             <td>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Lihat</button>
 
@@ -75,30 +77,10 @@
 
                                   </div>
                                 </div>
-
-                            </td>
-                        <tr>
-                            <td>2</td>
-                            <td>A0002</td>
-                            <td>AP001</td>
-                            <td>Dr. Ahmad</td>
-                            <td>Lala</td>
-                            <td>01-01-2017</td>
-                            <td>
-                                <button type="button" class="btn btn-primary">Lihat</button>
+                                
                             </td>
                         </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>A0003</td>
-                            <td>AP001</td>
-                            <td>Dr. Ipin</td>
-                            <td>Kiki</td>
-                            <td>02-01-2017</td>
-                            <td>
-                                <button type="button" class="btn btn-primary">Lihat</button>
-                            </td>
-                        </tr>
+<?php $i++; }?>
                     </tbody>
                 </table> 
 
