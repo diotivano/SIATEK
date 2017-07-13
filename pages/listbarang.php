@@ -39,4 +39,3 @@ foreach ($list_barang as $lb){ ?>
                   </table>
             </div>
 
-

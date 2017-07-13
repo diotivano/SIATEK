@@ -1,5 +1,4 @@
-
-    <div class="container-fluid">
+ <div class="container-fluid">
         
         
         <div class="row" id="kepala">
@@ -21,22 +20,19 @@
             <div id="sidebar" class="col-md-2">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="beranda.php">Beranda</a>
+                    <a href="berandakasir.html">Beranda</a>
                 </li>
                 <li>
-                    <a href="user.html">User</a>
+                    <a href="barangkasir.html">List Barang</a>
                 </li>
                 <li>
-                    <a href="listbarang.php">List Barang</a>
+                    <a href="stokkasir.html">List Stok Barang</a>
                 </li>
                 <li>
-                    <a href="stokadmin.html">List Stok Barang</a>
+                    <a href="penjualan.html">List Penjualan</a>
                 </li>
                 <li>
-                    <a href="resepadmin.html">List Resep</a>
-                </li>
-                <li>
-                    <a href="penjualanadmin.html">List Penjualan</a>
+                    <a href="inputpenjualan.html">Input Penjualan</a>
                 </li>
             </ul>
                                 
