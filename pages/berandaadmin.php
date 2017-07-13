@@ -1,7 +1,7 @@
             <div id="badan" class="col-md-10">
                 <h1 class="page-header">Selamat Datang di SIATEK</h1>
                     <table>
-<?php foreach ($user_admin as $adm){ ?>
+        <?php foreach ($user_admin as $adm){ ?>
                          <tr>
                              <td>Nama </td>
                              <td>: <?= $adm['nama'] ?></td>
@@ -12,7 +12,7 @@
                          </tr>
                          <tr>
                              <td>User Id </td>
-                             <td>: <?= $adm['id_admin'] ?></td>
+                             <td>: <?= $adm['id_user'] ?></td>
                          </tr>
                          <tr>
                              <td>Jabatan </td>

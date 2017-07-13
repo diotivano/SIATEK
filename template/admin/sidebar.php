@@ -24,7 +24,7 @@
                     <a href="beranda.php">Beranda</a>
                 </li>
                 <li>
-                    <a href="template/admin/user.html">User</a>
+                    <a href="user.php">User</a>
                 </li>
                 <li>
                     <a href="listbarang.php">List Barang</a>

@@ -1,8 +1,10 @@
 <?php 
 
 require_once 'View.php';
+include 'model/User.php';
 include 'model/Barang.php';
 include 'model/Resep.php';
+
 /**
 * 
 */
@@ -48,12 +50,27 @@ class ListResep extends ViewAdmin
 		include_once 'model/Resep.php';
 
 		$res = new Resep();
-		$barang = new Barang();
 
 		$list_resep = $res->aksesListResep();
-		$databarang = $barang->aksesListBarang();
 
 		include_once 'pages/listresep.php';
+		$this->end();
+	}
+
+}
+
+class ListUser extends ViewAdmin
+{
+	
+	public function tampilListUser()
+	{
+		include_once 'model/User.php';
+
+		$lu = new User();
+
+		$list_user = $lu->aksesUser();
+
+		include_once 'pages/user.php';
 		$this->end();
 	}
 
