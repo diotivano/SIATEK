@@ -23,6 +23,24 @@ class User extends Model
     		return $data;
 	}
 
+	public function aksesUserApoteker()
+	{
+		$query = $this->db->prepare("SELECT * FROM apoteker");
+    		$query->execute();
+    		$data = $query->fetchAll();
+
+    		return $data;
+	}
+
+	public function aksesUserKasir()
+	{
+		$query = $this->db->prepare("SELECT * FROM kasir");
+    		$query->execute();
+    		$data = $query->fetchAll();
+
+    		return $data;
+	}
+
 }
 
  ?>

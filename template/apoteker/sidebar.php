@@ -1,9 +1,8 @@
     <div class="container-fluid">
         
-        
         <div class="row" id="kepala">
             <div class="col-md-12 text-center">
-                <img src="../images/banner.png" alt="">
+                <img src="template/images/banner.png" alt="">
             </div>
         </div>
 
@@ -12,7 +11,7 @@
                 <marquee width=200 scrolldelay=200><p id="tanggal"></p></marquee>
             </div>
             <div class="col-md-8 text-right">
-                <a href="../index.html" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
+                <a href="index.php" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
             </div>
         </div>
 
@@ -23,13 +22,13 @@
                     <a href="berandaapoteker.html">Beranda</a>
                 </li>
                 <li>
-                    <a href="stokapoteker.html">List Stok Barang</a>
+                    <a href="template/apoteker/stokapoteker.html">List Stok Barang</a>
                 </li>
                 <li>
-                    <a href="resepapoteker.html">List Resep</a>
+                    <a href="template/apoteker/resepapoteker.html">List Resep</a>
                 </li>
                 <li>
-                    <a href="inputresep.html">Input Resep</a>
+                    <a href="template/apoteker/inputresep.html">Input Resep</a>
                 </li>
 
             </ul>

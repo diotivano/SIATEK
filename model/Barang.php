@@ -13,6 +13,15 @@ class Barang extends Model
     		return $data;
 	}
 
+	public function aksesListStokBarang()
+	{
+		$query = $this->db->prepare("SELECT * FROM barang");
+    		$query->execute();
+    		$data = $query->fetchAll();
+
+    		return $data;
+	}
+
 }
 
  ?>

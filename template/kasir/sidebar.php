@@ -3,7 +3,7 @@
         
         <div class="row" id="kepala">
             <div class="col-md-12 text-center">
-                <img src="../images/banner.png" alt="">
+                <img src="template/images/banner.png" alt="">
             </div>
         </div>
 
@@ -12,7 +12,7 @@
                 <marquee width=200 scrolldelay=200><p id="tanggal"></p></marquee>
             </div>
             <div class="col-md-8 text-right">
-                <a href="../index.html" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
+                <a href="index.php" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
             </div>
         </div>
 
@@ -20,19 +20,19 @@
             <div id="sidebar" class="col-md-2">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="berandakasir.html">Beranda</a>
+                    <a href="kasir.php">Beranda</a>
                 </li>
                 <li>
-                    <a href="barangkasir.html">List Barang</a>
+                    <a href="listbarang.php">List Barang</a>
                 </li>
                 <li>
-                    <a href="stokkasir.html">List Stok Barang</a>
+                    <a href="template/kasir/stokkasir.html">List Stok Barang</a>
                 </li>
                 <li>
-                    <a href="penjualan.html">List Penjualan</a>
+                    <a href="template/kasir/penjualan.html">List Penjualan</a>
                 </li>
                 <li>
-                    <a href="inputpenjualan.html">Input Penjualan</a>
+                    <a href="template/kasir/inputpenjualan.html">Input Penjualan</a>
                 </li>
             </ul>
                                 

@@ -30,7 +30,7 @@
                     <a href="listbarang.php">List Barang</a>
                 </li>
                 <li>
-                    <a href="template/admin/stokadmin.html">List Stok Barang</a>
+                    <a href="liststokbarang.php">List Stok Barang</a>
                 </li>
                 <li>
                     <a href="template/admin/suplaiadmin.html">List Suplai Barang</a>

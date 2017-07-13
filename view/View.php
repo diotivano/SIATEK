@@ -1,4 +1,4 @@
-	<?php 
+<?php 
 
 /**
 * 
@@ -41,6 +41,27 @@ class ViewAdmin
 	protected function end()
 	{
 		include 'template/admin/footer.php';
+	}
+	
+}
+
+class ViewApoteker
+{
+	public $title;
+	public $subtitle;
+	public $content;
+
+	function __construct()
+	{
+		include_once 'template/apoteker/header.php';
+		include_once 'template/apoteker/sidebar.php';
+		// include_once 'content.php';
+		
+	}
+
+	protected function end()
+	{
+		include 'template/apoteker/footer.php';
 	}
 	
 }

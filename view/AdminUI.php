@@ -76,4 +76,21 @@ class ListUser extends ViewAdmin
 
 }
 
+class ListStokBarang extends ViewAdmin
+{
+	
+	public function tampilListStokBarang()
+	{
+		include_once 'model/Barang.php';
+
+		$lsb = new Barang();
+
+		$list_stokbarang = $lsb->aksesListStokBarang();
+
+		include_once 'pages/liststokbarang.php';
+		$this->end();
+	}
+
+}
+
  ?>

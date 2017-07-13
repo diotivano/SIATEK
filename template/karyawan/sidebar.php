@@ -3,7 +3,7 @@
         
         <div class="row" id="kepala">
             <div class="col-md-12 text-center">
-                <img src="../images/banner.png" alt="">
+                <img src="template/images/banner.png" alt="">
             </div>
         </div>
 
@@ -12,7 +12,7 @@
                 <marquee width=200 scrolldelay=200><p id="tanggal"></p></marquee>
             </div>
             <div class="col-md-8 text-right">
-                <a href="../index.html" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
+                <a href="index.php" class="btn btn-default btn-sm" role="button" id="logout">Logout</a>
             </div>
         </div>
 
@@ -20,19 +20,19 @@
             <div id="sidebar" class="col-md-2">
             <ul class="sidebar-nav">
                 <li>
-                    <a href="berandakaryawan.html">Beranda</a>
+                    <a href="karyawan.php">Beranda</a>
                 </li>
                 <li>
-                    <a href="barangkaryawan.html">List Barang</a>
+                    <a href="template/karyawan/barangkaryawan.html">List Barang</a>
                 </li>
                 <li>
-                    <a href="inputbarang.html">Input Barang</a>
+                    <a href="template/karyawan/inputbarang.html">Input Barang</a>
                 </li>
                 <li>
-                    <a href="stokkaryawan.html">List Stok Barang</a>
+                    <a href="template/karyawan/stokkaryawan.html">List Stok Barang</a>
                 </li>
                 <li>
-                    <a href="suplaikaryawan.html">List Supplai</a>
+                    <a href="template/karyawan/suplaikaryawan.html">List Supplai</a>
                 </li>
             </ul>
                                 
