@@ -1,9 +1,9 @@
 
             <div id="badan" class="col-md-10">
 
-                <h1 class="page-header">Input Barang</h1>
+                <h1 class="page-header">Edit Barang</h1>
                 <div class="col-md-6">
-                  <form action="inputbarang.php" method="POST" accept-charset="utf-8">
+                  <form action="editbarang.php" method="POST" accept-charset="utf-8">
                 <div class="form-group">
                     <label for="namabarang">Nama Barang</label>
                     <input type="text" name="nama_barang" class="form-control" placeholder="Nama Barang">

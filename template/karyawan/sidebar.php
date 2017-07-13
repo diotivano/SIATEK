@@ -23,10 +23,10 @@
                     <a href="berandakaryawan.html">Beranda</a>
                 </li>
                 <li>
-                    <a href="barangkaryawan.html">List Barang</a>
+                    <a href="listbarangkaryawan.php">List Barang</a>
                 </li>
                 <li>
-                    <a href="inputbarang.html">Input Barang</a>
+                    <a href="inputbarang.php">Input Barang</a>
                 </li>
                 <li>
                     <a href="stokkaryawan.html">List Stok Barang</a>

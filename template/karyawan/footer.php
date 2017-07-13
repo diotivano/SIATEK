@@ -17,7 +17,9 @@
         });
     });
 
-
+    $('form').on('submit',function(){
+           alert('submitted');
+    });
 
     </script>
 </body>
